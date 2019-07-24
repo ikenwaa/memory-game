@@ -1,0 +1,90 @@
+/* html{
+  font-size: 62.5%;
+} */
+
+body{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e0dbdb;
+  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/1415734/pexels-photo-1415734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  font-family: 'Eagle Lake', cursive;
+}
+
+#wrapper{
+  display: block;
+  margin: 0 auto;
+  width: 80vw;
+  height: auto;
+  padding: 0;
+  border:  1px solid rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px #000000;
+}
+
+.header{
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.header>h1{
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.header>p{
+  font-size: 18px;
+}
+
+.header>p>span>i{
+  cursor: pointer;
+}
+
+/* --- Card Container */
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  border-radius: 7px;
+  background-color: rgba(14, 59, 67, 0.9);
+  margin-bottom: 30px;
+  color: red;
+}
+
+.card-container>div{
+  height: 70px;
+  width: 15%;
+  padding: 10px;
+  margin: 15px;
+  display: inline-block;
+  text-align: center;
+  background-color: #ECFEE8;
+  border-radius: 7px;
+  box-shadow: 4px 3px 3px #888888;
+  transform: translateY(0px);
+  transition: .5s;
+}
+
+.card-container>div:hover{
+  transform: translateY(-5px);
+  transition: .5s;
+}
+
+.card-container>div>i{
+  margin: 15% auto;
+  font-size: 40px;
+  color: green;
+}
+
+
+
