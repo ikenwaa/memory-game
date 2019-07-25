@@ -56,9 +56,17 @@ body{
   margin: 0 auto;
   height: auto;
   border-radius: 7px;
-  background-color: rgba(14, 59, 67, 0.9);
+  /* background-color: rgba(14, 59, 67, 0.9); */
   margin-bottom: 30px;
-  color: red;
+  background: linear-gradient(223deg, #e9e120, #e93920, #3fbdd9);
+  background-size: 600% 600%;
+  animation: AnimationName 3s ease-in-out infinite;
+}
+
+@keyframes AnimationName { 
+  0%{background-position:0% 53%}
+  50%{background-position:100% 48%}
+  100%{background-position:0% 53%}
 }
 
 .card-container>div{
@@ -70,7 +78,6 @@ body{
   text-align: center;
   background-color: #ECFEE8;
   border-radius: 7px;
-  box-shadow: 4px 3px 3px #888888;
   transform: translateY(0px);
   transition: .5s;
 }
@@ -78,13 +85,36 @@ body{
 .card-container>div:hover{
   transform: translateY(-5px);
   transition: .5s;
+  box-shadow: 4px 3px 3px #cecece;
 }
 
 .card-container>div>i{
   margin: 15% auto;
   font-size: 40px;
-  color: green;
 }
 
+.fa-html5{
+  color: #CD5C5C;
+}
 
-
+.fa-js{
+  color: #f0db4f;
+}
+.fa-css3-alt{
+  color: #1564B2;
+}
+.fa-react{
+  color: #61dbfb;
+}
+.fa-node{
+  color: #68a063;
+}
+.fa-angular{
+  color: #B52E31;
+}
+.fa-git{
+  color: #f1502f;
+}
+.fa-vuejs{
+  color: #41B883;
+}
