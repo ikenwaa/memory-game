@@ -21,10 +21,10 @@ body{
   width: 80vw;
   height: auto;
   padding: 0;
-  border:  1px solid rgba(0, 0, 0, 0.4);
-  background-color: rgba(0, 0, 0, 0.4);
+  /* border:  1px solid rgba(0, 0, 0, 0.4); */
+  /* background-color: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  box-shadow: 7px 7px 5px #000000;
+  box-shadow: 7px 7px 5px #000000; */
 }
 
 .header{
@@ -34,8 +34,12 @@ body{
 }
 
 .header>h1{
-  font-size: 35px;
+  font-size: 40px;
   text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-weight: 900;
 }
 
 .header>p{

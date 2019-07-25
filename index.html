@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/66f4a21315.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Eagle+Lake&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Memory Game</title>
 </head>
@@ -14,11 +14,11 @@
     <div class="header">
       <h1>Memory Game</h1>
       <!-- <br/> -->
-      <p><span class="moves">0</span> Move(s) <span><i class="fas fa-redo-alt"></i></span><!-- 00:00 --></p>
+      <p><span class="moves">0</span> Move(s) <span><i id="refresh" class="fas fa-redo-alt" onclick="shuffleCards()"></i></span><!-- 00:00 --></p>
     </div>
 
     <!-- Card Container -->
-    <div class="card-container">
+    <div class="card-container" id="board">
       <div class="card" type="html"><i class="fab fa-html5"></i></div>
       <div class="card" type="javascript"><i class="fab fa-js"></i></div>
       <div class="card" type="css"><i class="fab fa-css3-alt"></i></div>
@@ -38,5 +38,7 @@
     </div>
 
   </section>
+
+  <script src="app.js"></script>
 </body>
 </html>
