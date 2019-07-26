@@ -13,28 +13,30 @@
   <section id="wrapper">
     <div class="header">
       <h1>Memory Game</h1>
-      <!-- <br/> -->
-      <p><span class="moves">0</span> Move(s) <span><i id="refresh" class="fas fa-redo-alt" onclick="shuffleCards()"></i></span><!-- 00:00 --></p>
+        <p><span id="moves">0</span> Move(s) <span><i id="refresh" class="fas fa-redo-alt" onclick="shuffle()"></i></span></p>
+        <div id="timer">
+          <p id="timer-min"></p>
+        </div>
     </div>
 
     <!-- Card Container -->
     <div class="card-container" id="board">
-      <div class="card" type="html"><i class="fab fa-html5"></i></div>
-      <div class="card" type="javascript"><i class="fab fa-js"></i></div>
-      <div class="card" type="css"><i class="fab fa-css3-alt"></i></div>
-      <div class="card" type="react"><i class="fab fa-react"></i></div>
-      <div class="card" type="node"><i class="fab fa-node"></i></div>
-      <div class="card" type="angular"><i class="fab fa-angular"></i></div>
-      <div class="card" type="git"><i class="fab fa-git"></i></div>
-      <div class="card" type="vue"><i class="fab fa-vuejs"></i></div>
-      <div class="card" type="html"><i class="fab fa-html5"></i></div>
-      <div class="card" type="javascript"><i class="fab fa-js"></i></div>
-      <div class="card" type="css"><i class="fab fa-css3-alt"></i></div>
-      <div class="card" type="react"><i class="fab fa-react"></i></div>
-      <div class="card" type="node"><i class="fab fa-node"></i></div>
-      <div class="card" type="angular"><i class="fab fa-angular"></i></div>
-      <div class="card" type="git"><i class="fab fa-git"></i></div>
-      <div class="card" type="vue"><i class="fab fa-vuejs"></i></div>
+      <div class="card" type="html" onclick="counter()"><i class="fab fa-html5"></i></div>
+      <div class="card" type="javascript" onclick="counter()"><i class="fab fa-js"></i></div>
+      <div class="card" type="css" onclick="counter()"><i class="fab fa-css3-alt"></i></div>
+      <div class="card" type="react" onclick="counter()"><i class="fab fa-react"></i></div>
+      <div class="card" type="node" onclick="counter()"><i class="fab fa-node"></i></div>
+      <div class="card" type="angular" onclick="counter()"><i class="fab fa-angular"></i></div>
+      <div class="card" type="git" onclick="counter()"><i class="fab fa-git"></i></div>
+      <div class="card" type="vue" onclick="counter()"><i class="fab fa-vuejs"></i></div>
+      <div class="card" type="html" onclick="counter()"><i class="fab fa-html5"></i></div>
+      <div class="card" type="javascript" onclick="counter()"><i class="fab fa-js"></i></div>
+      <div class="card" type="css" onclick="counter()"><i class="fab fa-css3-alt"></i></div>
+      <div class="card" type="react" onclick="counter()"><i class="fab fa-react"></i></div>
+      <div class="card" type="node" onclick="counter()"><i class="fab fa-node"></i></div>
+      <div class="card" type="angular" onclick="counter()"><i class="fab fa-angular"></i></div>
+      <div class="card" type="git" onclick="counter()"><i class="fab fa-git"></i></div>
+      <div class="card" type="vue" onclick="counter()"><i class="fab fa-vuejs"></i></div>
     </div>
 
   </section>
